@@ -18,6 +18,26 @@ WHEN TO USE PROMPT ENGINEERING ,WHEN TO USE RAG? ,WHEN TO USE LLM AGENT? WHEN TO
 
           ex: company's policy data - RAG because it is private and static
 
+SOURCE DOCUMENTS on one side and USER QUERY on other side
+
+          eX: pdf file say Engineering Maths book
+          Its embedding is created
+          User query is also converted to embedding model
+          cosine similarity(similarity search) between query embedding and other embedding , determines the fetched result.
+
+WHAT IS EMBEDDING MODEL? bge m3 mistral etc
+
+          Some way of converting findings into mathematical vectors so that it is understandable to model .Mistral
+
+          Not only the context the query will also be converted to embedding and similarity search is done
+
+          Ex: The Math book  
+
+
+LANGCHAIN : 
+
+IMAGE : we will generate information about the image and it embedding
+
           
           
           
