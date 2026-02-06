@@ -38,6 +38,8 @@ LANGCHAIN :
 
 IMAGE : we will generate information about the image and it embedding
 
-          
+GOOGLE API KEY :if exhaused create again one more under new project
+
+17th proj drive
           
           
